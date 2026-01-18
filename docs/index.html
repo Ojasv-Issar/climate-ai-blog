@@ -174,6 +174,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>In October 2024, Hurricane Helene devastated communities across the southeastern United States, causing over $50 billion in damages and claiming hundreds of lives. Just weeks later, catastrophic flooding in Spain killed more than 200 people. These events underscore a sobering reality: climate change is accelerating, and we need better tools to predict, monitor, and respond to environmental crises before they become catastrophes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/helene_geo.jpg" class="img-fluid figure-img"></p>
+<figcaption>Hurricane Helene</figcaption>
+</figure>
+</div>
+<p><strong>Figure 1:</strong> Hurricane Helene - Geographical View</p>
 <p>Every day, satellites, weather stations, ocean buoys, and environmental sensors generate terabytes of data about our planet’s health. Yet, this wealth of information often overwhelms our capacity to analyze it effectively using traditional methods. This is where artificial intelligence and machine learning step in, transforming raw environmental data into actionable insights that can guide policy decisions and save lives.</p>
 <p>In this post, we’ll explore how machine learning is revolutionizing climate monitoring, examine real-world applications that are making a difference today, and discuss what municipal governments and policy makers need to know about implementing these technologies responsibly.</p>
 </section>
@@ -195,6 +202,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="satellite-image-analysis-for-land-use-changes" class="level3">
 <h3 class="anchored" data-anchor-id="satellite-image-analysis-for-land-use-changes">Satellite Image Analysis for Land Use Changes</h3>
 <p>One of the most impactful applications of AI in environmental monitoring is automated analysis of satellite imagery. Convolutional Neural Networks (CNNs), the same technology that powers facial recognition in smartphones, can be trained to identify deforestation, urban expansion, agricultural changes, and other land use patterns with remarkable accuracy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/sat_img_analysis.png" class="img-fluid figure-img"></p>
+<figcaption>Satellite Image Analysis for Land Use Changes</figcaption>
+</figure>
+</div>
+<p><strong>Figure 2:</strong> Land use classification maps</p>
 <p><strong>Case Study: Global Forest Watch</strong></p>
 <p>Global Forest Watch, a partnership between the World Resources Institute and Google, uses machine learning to monitor forests worldwide in near-real-time. Their GLAD (Global Land Analysis and Discovery) alert system processes Landsat satellite data daily, detecting tree cover loss within days of occurrence. Since its launch, the system has helped governments and conservation organizations respond to illegal logging activities before significant damage occurs.</p>
 <p>The technology works by training deep learning models on millions of labeled satellite images, teaching the algorithm to distinguish between healthy forest, degraded forest, and cleared land. The system achieved over 90% accuracy in detecting deforestation events, far surpassing what human analysts could accomplish at scale.</p>
@@ -220,7 +234,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Machine learning models excel at identifying complex patterns in historical climate data to predict future conditions. Deep learning approaches like Long Short-Term Memory (LSTM) networks can analyze decades of temperature, pressure, humidity, and wind data to forecast weather patterns weeks or even months in advance.</p>
 <p><strong>Extreme Weather Early Warning Systems</strong></p>
 <p>Traditional weather forecasting struggles to predict extreme events like heat waves, droughts, and floods with sufficient lead time for effective preparation. Machine learning models trained on historical extreme weather events can identify the subtle precursor patterns that signal an approaching crisis.</p>
-<p>Google’s flood forecasting initiative in India and Bangladesh demonstrates this potential. Their machine learning models predict riverine floods up to seven days in advance, providing crucial time for evacuations and resource mobilization. The system combines hydrological models with AI to achieve prediction accuracy rates exceeding 90%, covering areas home to over 200 million people.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Images/Weather-Prediction-Hurricane.gif" class="img-fluid figure-img"></p>
+<figcaption>Nvidia’s</figcaption>
+</figure>
+</div>
+<p><strong>Figure 3:</strong> AI Forecasts Extreme Weather (Nvidia’s Initiative)</p>
+<p>Google’s flood forecasting initiative in India and Bangladesh demonstrates this potential. Their machine learning models predict riverine floods up to seven days in advance, providing crucial time for evacuations and resource mobilization. The system combines hydrological models with AI to achieve prediction accuracy rates exceeding 90%, covering areas home to over 200 million people. <img src="Images/Floods_forecast.jpg" class="img-fluid" alt="Google’s Flood Forecasting Initiative"></p>
+<p><strong>Figure 4:</strong> Google’s Flood Forecast Model</p>
 </section>
 <section id="air-quality-monitoring-and-prediction" class="level3">
 <h3 class="anchored" data-anchor-id="air-quality-monitoring-and-prediction">Air Quality Monitoring and Prediction</h3>
@@ -284,11 +306,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="references-and-further-reading" class="level2">
 <h2 class="anchored" data-anchor-id="references-and-further-reading">References and Further Reading</h2>
 <ol type="1">
-<li>Global Forest Watch GLAD Alert System: <a href="https://www.globalforestwatch.org/" class="uri">https://www.globalforestwatch.org/</a></li>
-<li>Google Flood Forecasting Initiative: <a href="https://sites.research.google/floods/" class="uri">https://sites.research.google/floods/</a></li>
-<li>NASA Earth Data: <a href="https://earthdata.nasa.gov/" class="uri">https://earthdata.nasa.gov/</a></li>
-<li>World Resources Institute Climate Tools: <a href="https://www.wri.org/" class="uri">https://www.wri.org/</a></li>
-<li>Rolnick, D., et al.&nbsp;(2019). “Tackling Climate Change with Machine Learning.” arXiv:1906.05433</li>
+<li><p>Appalachian State University. (2025). “Hurricane Helene Impact Report.” Retrieved from https://today.appstate.edu/2025/09/09/helene</p></li>
+<li><p>Nature Scientific Reports. (2019). “Machine Learning Applications in Climate Science.” <em>Nature</em>, 598. https://www.nature.com/articles/s41598-019-48586-3</p></li>
+<li><p>NVIDIA Developer Blog. “AI Accurately Forecasts Extreme Weather Up to 23 Days Ahead.” https://developer.nvidia.com/blog/ai-accurately-forecasts-extreme-weather-up-to-23-days-ahead/</p></li>
+<li><p>Google Research. “Flood Forecasting Initiative.” https://sites.research.google/gr/floodforecasting/</p></li>
+<li><p>Global Forest Watch. “GLAD Alert System.” https://www.globalforestwatch.org/</p></li>
+<li><p>Google Flood Hub. “Real-time Flood Forecasting.” https://sites.research.google/floods/</p></li>
+<li><p>NASA Earth Data. “Environmental Data Repository.” https://earthdata.nasa.gov/</p></li>
+<li><p>World Resources Institute. “Climate Tools and Resources.” https://www.wri.org/</p></li>
+<li><p>Rolnick, D., et al.&nbsp;(2019). “Tackling Climate Change with Machine Learning.” <em>arXiv:1906.05433</em>. https://arxiv.org/abs/1906.05433</p></li>
 </ol>
 
 

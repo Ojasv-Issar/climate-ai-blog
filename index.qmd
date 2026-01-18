@@ -16,6 +16,10 @@ image: "climate-ai-thumbnail.jpg"
 
 In October 2024, Hurricane Helene devastated communities across the southeastern United States, causing over \$50 billion in damages and claiming hundreds of lives. Just weeks later, catastrophic flooding in Spain killed more than 200 people. These events underscore a sobering reality: climate change is accelerating, and we need better tools to predict, monitor, and respond to environmental crises before they become catastrophes.
 
+![Hurricane Helene](Images/helene_geo.jpg)
+
+**Figure 1:** Hurricane Helene - Geographical View
+
 Every day, satellites, weather stations, ocean buoys, and environmental sensors generate terabytes of data about our planet's health. Yet, this wealth of information often overwhelms our capacity to analyze it effectively using traditional methods. This is where artificial intelligence and machine learning step in, transforming raw environmental data into actionable insights that can guide policy decisions and save lives.
 
 In this post, we'll explore how machine learning is revolutionizing climate monitoring, examine real-world applications that are making a difference today, and discuss what municipal governments and policy makers need to know about implementing these technologies responsibly.
@@ -39,6 +43,10 @@ Consider the Amazon rainforest, which spans over 5.5 million square kilometers. 
 ### Satellite Image Analysis for Land Use Changes
 
 One of the most impactful applications of AI in environmental monitoring is automated analysis of satellite imagery. Convolutional Neural Networks (CNNs), the same technology that powers facial recognition in smartphones, can be trained to identify deforestation, urban expansion, agricultural changes, and other land use patterns with remarkable accuracy.
+
+![Satellite Image Analysis for Land Use Changes](Images/sat_img_analysis.png)
+
+**Figure 2:** Land use classification maps 
 
 **Case Study: Global Forest Watch**
 
@@ -73,7 +81,14 @@ Machine learning models excel at identifying complex patterns in historical clim
 
 Traditional weather forecasting struggles to predict extreme events like heat waves, droughts, and floods with sufficient lead time for effective preparation. Machine learning models trained on historical extreme weather events can identify the subtle precursor patterns that signal an approaching crisis.
 
+![Nvidia's ](Images/Weather-Prediction-Hurricane.gif)
+
+**Figure 3:** AI Forecasts Extreme Weather (Nvidia's Initiative)
+
 Google's flood forecasting initiative in India and Bangladesh demonstrates this potential. Their machine learning models predict riverine floods up to seven days in advance, providing crucial time for evacuations and resource mobilization. The system combines hydrological models with AI to achieve prediction accuracy rates exceeding 90%, covering areas home to over 200 million people.
+![Google's Flood Forecasting Initiative](Images/Floods_forecast.jpg)
+
+**Figure 4:** Google's Flood Forecast Model
 
 ### Air Quality Monitoring and Prediction
 
@@ -150,8 +165,20 @@ The future of climate action will be powered by data, and machine learning is th
 
 ## References and Further Reading
 
-1.  Global Forest Watch GLAD Alert System: <https://www.globalforestwatch.org/>
-2.  Google Flood Forecasting Initiative: <https://sites.research.google/floods/>
-3.  NASA Earth Data: <https://earthdata.nasa.gov/>
-4.  World Resources Institute Climate Tools: <https://www.wri.org/>
-5.  Rolnick, D., et al. (2019). "Tackling Climate Change with Machine Learning." arXiv:1906.05433
+1. Appalachian State University. (2025). "Hurricane Helene Impact Report." Retrieved from https://today.appstate.edu/2025/09/09/helene
+
+2. Nature Scientific Reports. (2019). "Machine Learning Applications in Climate Science." *Nature*, 598. https://www.nature.com/articles/s41598-019-48586-3
+
+3. NVIDIA Developer Blog. "AI Accurately Forecasts Extreme Weather Up to 23 Days Ahead." https://developer.nvidia.com/blog/ai-accurately-forecasts-extreme-weather-up-to-23-days-ahead/
+
+4. Google Research. "Flood Forecasting Initiative." https://sites.research.google/gr/floodforecasting/
+
+5. Global Forest Watch. "GLAD Alert System." https://www.globalforestwatch.org/
+
+6. Google Flood Hub. "Real-time Flood Forecasting." https://sites.research.google/floods/
+
+7. NASA Earth Data. "Environmental Data Repository." https://earthdata.nasa.gov/
+
+8. World Resources Institute. "Climate Tools and Resources." https://www.wri.org/
+
+9. Rolnick, D., et al. (2019). "Tackling Climate Change with Machine Learning." *arXiv:1906.05433*. https://arxiv.org/abs/1906.05433
