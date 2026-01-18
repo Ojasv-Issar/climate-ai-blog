@@ -1,0 +1,12 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Climate AI Blog"
+  
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
